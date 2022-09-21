@@ -18,16 +18,16 @@ const Footer = () => {
 
       <div>
         <Typography variant="h6">Social Media</Typography>
-        <a href="#" target="_blank">
+        <a href="https://github.com/MshSiam" target="_blank">
           <BsGithub />
         </a>
         <a href="#" target="_blank">
           <BsLinkedin />
         </a>
-        <a href="#" target="_blank">
+        <a href="https://www.facebook.com/seam.kenway/" target="_blank">
           <BsFacebook />
         </a>
-        <a href="#" target="_blank">
+        <a href="https://www.instagram.com/siam_kenway/" target="_blank">
           <BsInstagram />
         </a>
       </div>

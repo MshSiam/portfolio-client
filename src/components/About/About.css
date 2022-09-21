@@ -1,0 +1,17 @@
+.about {
+  background-color: hsl(219, 47%, 8%);
+  min-height: 100vh;
+  display: flex;
+}
+
+.aboutContainer {
+  background-color: rgb(255, 255, 255);
+  width: 60%;
+  height: 70vh;
+  position: absolute;
+  right: 0;
+  display: flex;
+  justify-content: right;
+  padding: 2vmax;
+  box-sizing: border-box;
+}

@@ -22,3 +22,41 @@
   color: white;
   padding: 10px 0;
 }
+.footer > div:last-child {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer > div > a {
+  font-size: 3vmax;
+  color: white;
+  padding: 5px;
+  transition: all 0.3s;
+}
+.footer > div > a:hover {
+  color: rgb(127, 3, 184);
+}
+
+.footerContactBtn {
+  background-color: #fff;
+  color: black;
+  padding: 5px;
+  width: 120px;
+  text-decoration: none;
+  text-align: center;
+  transition: all 0.5s;
+  border: 1px solid white;
+  border-radius: 15px;
+  display: block;
+  margin: 2vmax 0;
+  cursor: pointer;
+}
+
+.footerContactBtn > p {
+  color: black;
+}
+.footerContactBtn > p:hover {
+  background-color: unset;
+  color: rgb(127, 3, 184);
+}
