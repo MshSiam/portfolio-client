@@ -1,0 +1,24 @@
+.footer {
+  background-color: rgb(26, 26, 26);
+  padding: 3vmax;
+  display: grid;
+  grid-template-columns: 1fr 200px;
+}
+
+.footer > div > h5 {
+  color: aliceblue;
+  border-bottom: 1px solid #fff;
+  width: 120px;
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+
+.footer > div > p {
+  color: white;
+  width: 60%;
+}
+
+.footer > div > h6 {
+  color: white;
+  padding: 10px 0;
+}
