@@ -2,6 +2,7 @@
   background-color: hsl(219, 48%, 8%);
   min-height: 100vh;
   padding-top: 15vmax;
+  padding-bottom: 5vmax;
 }
 
 .projects > h3 {
