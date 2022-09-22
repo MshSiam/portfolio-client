@@ -20,8 +20,18 @@ import {
   SiMaterialdesign,
   SiTailwindcss,
   SiBootstrap,
-  SiPostman
+  SiPostman,
+  SiFigma
 } from "react-icons/si"
+import html from "../../src/images/skillsImage/html.png"
+import css from "../../src/images/skillsImage/css.jpg"
+import javascript from "../../src/images/skillsImage/java-script.jpg"
+import react from "../../src/images/skillsImage/react.webp"
+import node from "../../src/images/skillsImage/node.jpg"
+import mongo from "../../src/images/skillsImage/mongo.png"
+import { MouseOutlined } from "@mui/icons-material"
+import { Link } from "react-router-dom"
+import About from "./About/About"
 
 const Home = () => {
   useEffect(() => {
@@ -111,9 +121,30 @@ const Home = () => {
   return (
     <div className="home">
       <canvas className="homeCanvas"></canvas>
+      <div className="homeCanvasContainer">
+        <Typography variant="h1">
+          <p>S</p>
+          <p>I</p>
+          <p>A</p>
+          <p>M</p>
+        </Typography>
+
+        <div className="homeCanvasBox">
+          <Typography variant="h2">Hello There,</Typography>
+
+          <Typography variant="h2">Junior Mern-Stack Developer </Typography>
+        </div>
+
+        <Link to="/projects">VIEW WORK</Link>
+      </div>
+
+      <div className="homeScrollBtn">
+        <MouseOutlined />
+      </div>
       <div className="homeContainer">
-        <Typography variant="h3">TIMELINE</Typography>
-        <TimeLine timelines={[1, 2, 3, 4]} />
+        {/* <Typography variant="h3">TIMELINE</Typography>
+        <TimeLine timelines={[1, 2, 3, 4]} /> */}
+        <About />
       </div>
 
       <div className="homeSkills">
@@ -121,47 +152,31 @@ const Home = () => {
 
         <div className="homeCubeSkills">
           <div className="homeCubeSkillsFaces  homeCubeSkillsFace1">
-            <img
-              src="https://scontent.fdac110-1.fna.fbcdn.net/v/t39.30808-6/293515581_3231269913778918_945467255294252343_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=174925&_nc_ohc=IsvWLaV9c3wAX9qo9WY&tn=qcKEf1pypR3o00q_&_nc_ht=scontent.fdac110-1.fna&oh=00_AT-yemZRF_8HZe6Gf8HWsEibc-9Kt1Gs1eMBoJAuzjFu_A&oe=632EED34"
-              alt=""
-            />
+            <img src={html} alt="" />
           </div>
           <div className="homeCubeSkillsFaces  homeCubeSkillsFace2">
-            <img
-              src="https://scontent.fdac110-1.fna.fbcdn.net/v/t39.30808-6/291328054_3222065344699375_2298346391387372209_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=174925&_nc_ohc=_mVEA8C3mxUAX9qTsM4&_nc_ht=scontent.fdac110-1.fna&oh=00_AT8VYcuprtyc1TAJtxMzaHIFd8Qlv0OWzjxdUSDT1X2kmw&oe=6330258C"
-              alt=""
-            />
+            <img src={css} alt="" />
           </div>
           <div className="homeCubeSkillsFaces  homeCubeSkillsFace3">
-            <img
-              src="https://scontent.fdac110-1.fna.fbcdn.net/v/t39.30808-6/287482964_3205172486388661_4998008815720573630_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=174925&_nc_ohc=JwM2DWupGQEAX_qtDeq&tn=qcKEf1pypR3o00q_&_nc_ht=scontent.fdac110-1.fna&oh=00_AT9Gc0ayB_zPafTHsmviqSPno9l9HTrENxBILl2sMymfFA&oe=63301FCF"
-              alt=""
-            />
+            <img src={javascript} alt="" />
           </div>
           <div className="homeCubeSkillsFaces  homeCubeSkillsFace4">
-            <img
-              src="https://scontent.fdac110-1.fna.fbcdn.net/v/t39.30808-6/286097828_3201612526744657_1253267925567137813_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=174925&_nc_ohc=lAyPlXB6EngAX82DPsn&_nc_ht=scontent.fdac110-1.fna&oh=00_AT_VfcVdsdmYOIuKVDK9D0SLV52kMPz-WzyRkkzeqoBRSg&oe=632F0D6D"
-              alt=""
-            />
+            <img src={react} alt="" />
           </div>
           <div className="homeCubeSkillsFaces  homeCubeSkillsFace5">
-            <img
-              src="https://scontent.fdac110-1.fna.fbcdn.net/v/t39.30808-6/279880602_3175635099342400_8264868284577282840_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=174925&_nc_ohc=9Vxfg_huOW0AX_6sb4u&_nc_ht=scontent.fdac110-1.fna&oh=00_AT-YREyUnYytnNdauv0yUkBcFE1yJP6_ZRWuCl6hmqA_yw&oe=63308078"
-              alt=""
-            />
+            <img src={node} alt="" />
           </div>
           <div className="homeCubeSkillsFaces  homeCubeSkillsFace6">
-            <img
-              src="https://scontent.fdac110-1.fna.fbcdn.net/v/t39.30808-6/269864341_3082523128653598_2609365359739591781_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=174925&_nc_ohc=-PNCd4JXXqwAX8YNgTy&_nc_ht=scontent.fdac110-1.fna&oh=00_AT-wirhIP81VsQJzkjMMp6WcAXO0Ic9sr2wycufYBFHbzg&oe=632FC682"
-              alt=""
-            />
+            <img src={mongo} alt="" />
           </div>
         </div>
 
         <div className="cubeShadow"></div>
-        <div className="homeSkillsBox">
+
+        <div className="homeSkillsBox" id="homeskillsBox">
           <SiHtml5 />
           <SiCss3 />
+          <SiFigma />
           <SiJavascript />
           <SiMaterialdesign />
           <SiTailwindcss />

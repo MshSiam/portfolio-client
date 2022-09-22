@@ -29,10 +29,12 @@ const About = () => {
               letterSpacing: "5px",
               textAlign: "right"
             }}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
-            quasi officiis qui deserunt expedita, a debitis, aliquam enim ullam
-            voluptates vitae fuga. Dolore ullam fugiat qui excepturi sapiente
-            facilis omnis.
+            I am Muhammad Siam. I am 22 Years old. I am a student of Bsc
+            (Chemisrty) I have been learning web developement for 1 year. During
+            the period , I learn React js, React Native, React Router, Material
+            Ui, Bootstrap, Tailwind, Jquery, Modern Javascript, Typescript,
+            Html5, Css and so on. I have done almost 20+ projects for practise
+            purpose. Love to code and learn new things .
           </Typography>
         </div>
       </div>

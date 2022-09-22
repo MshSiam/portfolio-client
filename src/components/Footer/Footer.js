@@ -11,9 +11,14 @@ const Footer = () => {
         <Typography>
           Hello, I am Muhammad Siam. I am a junior Mern-Stack Developer.
         </Typography>
+        <br />
         <Link to="/contact" className="footerContactBtn">
           <Typography>Contact Me</Typography>
         </Link>
+        <br />
+
+        <Typography>+880-1765871554</Typography>
+        <Typography>siyamkenway@gmail.com</Typography>
       </div>
 
       <div>
