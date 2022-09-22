@@ -32,6 +32,8 @@ import mongo from "../../src/images/skillsImage/mongo.png"
 import { MouseOutlined } from "@mui/icons-material"
 import { Link } from "react-router-dom"
 import About from "./About/About"
+import Projects from "./Projects/Projects"
+import Contact from "./Contact/Contact"
 
 const Home = () => {
   useEffect(() => {
@@ -130,7 +132,10 @@ const Home = () => {
         </Typography>
 
         <div className="homeCanvasBox">
-          <Typography variant="h2">WELCOME TO MY PORTFOLIO</Typography>
+          <Typography variant="h2">WELCOME TO MY PORTFOLIO.</Typography>
+          <Typography variant="h2">
+            I AM A JUNIOR MERN-STACK DEVELOPER
+          </Typography>
         </div>
       </div>
 
@@ -184,6 +189,8 @@ const Home = () => {
           <SiPostman />
         </div>
       </div>
+
+      <Projects />
     </div>
   )
 }

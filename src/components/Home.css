@@ -20,7 +20,7 @@
 .homeCanvasContainer > h3 {
   filter: drop-shadow(0 0 2px rgb(28, 116, 216));
   position: absolute;
-  top: 50%;
+  top: 55%;
   left: 0%;
   background-color: white;
   padding: 2vmax;
@@ -45,9 +45,9 @@
 }
 
 .homeCanvasBox > h2 {
-  font: 900 4rem "Ubuntu Mono", "Roboto";
-  letter-spacing: 22px;
-  line-height: 130px;
+  font: 900 3rem "Ubuntu Mono", "Roboto";
+  letter-spacing: 10px;
+  line-height: 80px;
   color: white;
 }
 .homeCanvasContainer > a {

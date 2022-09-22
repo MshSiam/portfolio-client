@@ -28,7 +28,7 @@ const About = () => {
             style={{
               wordSpacing: "3px",
               lineHeight: "50px",
-              letterSpacing: "5px",
+              letterSpacing: "2px",
               textAlign: "right"
             }}>
             I am Muhammad Siam. I am 22 Years old. I am a student of Bsc
