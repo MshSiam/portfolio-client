@@ -26,7 +26,9 @@ const Footer = () => {
         <a href="https://github.com/MshSiam" target="_blank">
           <BsGithub />
         </a>
-        <a href="#" target="_blank">
+        <a
+          href="https://www.linkedin.com/in/muhammad-siam-77703520b/"
+          target="_blank">
           <BsLinkedin />
         </a>
         <a href="https://www.facebook.com/seam.kenway/" target="_blank">

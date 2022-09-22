@@ -49,6 +49,7 @@
   letter-spacing: 10px;
   line-height: 80px;
   color: white;
+  margin-left: 50px;
 }
 .homeCanvasContainer > a {
   background-color: white;
@@ -240,7 +241,8 @@
 
   .homeCanvasBox > h2 {
     font: 900 2rem "Ubuntu Mono", "Roboto";
-    letter-spacing: 15px;
+    letter-spacing: 2px;
+    margin-left: 10px;
     line-height: 60px;
   }
   .homeCubeSkills {

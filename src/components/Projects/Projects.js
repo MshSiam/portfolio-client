@@ -165,7 +165,8 @@ const Projects = () => {
       </div>
 
       <Typography variant="h3" style={{ font: "100 1.2rem Ubuntu Mono" }}>
-        All The Projects Shown Avobe are Made By Me . <FaRegSmileWink />
+        All The Projects Shown Avobe are Made By Me. Code Links Are Included in
+        My Resume . <FaRegSmileWink />
       </Typography>
     </div>
   )
