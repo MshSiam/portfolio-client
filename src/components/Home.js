@@ -122,7 +122,7 @@ const Home = () => {
     <div className="home">
       <canvas className="homeCanvas"></canvas>
       <div className="homeCanvasContainer">
-        <Typography variant="h1">
+        <Typography variant="h3">
           <p>S</p>
           <p>I</p>
           <p>A</p>
@@ -130,12 +130,8 @@ const Home = () => {
         </Typography>
 
         <div className="homeCanvasBox">
-          <Typography variant="h2">Hello There,</Typography>
-
-          <Typography variant="h2">Junior Mern-Stack Developer </Typography>
+          <Typography variant="h2">WELCOME TO MY PORTFOLIO</Typography>
         </div>
-
-        <Link to="/projects">VIEW WORK</Link>
       </div>
 
       <div className="homeScrollBtn">
