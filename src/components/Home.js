@@ -21,7 +21,8 @@ import {
   SiTailwindcss,
   SiBootstrap,
   SiPostman,
-  SiFigma
+  SiFigma,
+  SiFirebase
 } from "react-icons/si"
 import html from "../../src/images/skillsImage/html.png"
 import css from "../../src/images/skillsImage/css.jpg"
@@ -177,11 +178,12 @@ const Home = () => {
         <div className="homeSkillsBox" id="homeskillsBox">
           <SiHtml5 />
           <SiCss3 />
-          <SiFigma />
-          <SiJavascript />
+          <SiBootstrap />
           <SiMaterialdesign />
           <SiTailwindcss />
-          <SiBootstrap />
+          <SiFigma />
+          <SiJavascript />
+          <SiFirebase />
           <SiReact />
           <SiNodedotjs />
           <SiExpress />

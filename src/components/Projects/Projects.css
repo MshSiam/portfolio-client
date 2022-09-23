@@ -85,9 +85,9 @@
 }
 
 .projectCard > div:last-child > p {
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   word-spacing: 5px;
-  text-align: right;
+  text-align: left;
 }
 .projectCard > div:last-child > h6 {
   font-family: "Ubuntu Mono";
